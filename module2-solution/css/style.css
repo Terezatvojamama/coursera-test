@@ -1,0 +1,57 @@
+  /********** Base styles **********/
+  * {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+
+  div.row {
+    padding: 0 20px;
+  }
+
+  section.menu-item,
+  section.menu-item > h2 {
+    border: black solid 1px;
+  }
+
+  section.menu-item {
+    position: relative;
+    background-color: darkgrey;
+    margin: 15px;
+  }
+  section.menu-item > h2 {
+    position: relative;
+    /* left: 70%; */
+    top: -1px;
+    right: -1px;
+    /* width: 30%; */
+    float: right;
+    margin: 0;
+    padding: 5px 20px; /*TODO*/
+  }
+
+  section.menu-item > p {
+    padding-top: 40px;
+  }
+
+  /*********** stylish styles ? ***********/
+  h2.chicken {
+    background-color: lightcoral;
+  }
+
+  h2.beef {
+    background-color: brown;
+    color: white;
+  }
+
+  h2.sushi {
+    background-color: khaki;
+  }
