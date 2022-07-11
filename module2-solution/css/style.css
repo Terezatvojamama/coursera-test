@@ -10,6 +10,7 @@
 
   h1 {
     text-align: center;
+    font-size: 175%;
   }
 
 
@@ -36,6 +37,7 @@
     float: right;
     margin: 0;
     padding: 5px 20px; /*TODO*/
+    font-size: 125%;
   }
 
   section.menu-item > p {
