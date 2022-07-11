@@ -41,7 +41,8 @@
   }
 
   section.menu-item > p {
-    padding-top: 40px;
+    padding: 10px;
+    margin: 40px 0 0 0;
   }
 
   /*********** stylish styles ? ***********/
